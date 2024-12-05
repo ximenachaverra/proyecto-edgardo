@@ -1,0 +1,45 @@
+#fondo1{
+    background-color: rgb(250, 215, 248) ;
+}
+.contenedor1{
+    align-items: center;
+    border:1px solid beige;
+    background-color: rgb(230, 196, 243);
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    margin: 0 auto; /* hace que el cuadro quede en el centro*/
+    border-radius: 20px; /*borde redondo*/
+    margin-top:20px ; /*Espacio entre el nav*/
+
+
+}
+.parrafos{
+    text-align: center;
+    margin: 0 auto;
+}
+#form{
+    text-align: justify;
+    justify-content: justify;
+}
+.labels{
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+#titulo{
+    text-align: center;
+    justify-content: center;
+    color: rgb(15, 15, 15);
+    background-color: rgb(205, 176, 216);
+    padding: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid rgb(238, 230, 230);
+    margin-top: 10px; /*subir arriba la pagina*/
+    border-radius: 20px;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto; 
+}

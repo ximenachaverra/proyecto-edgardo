@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body id="fondo1">
+    <h1 id="titulo">Formulario de satisfacción</h1>
+        <nav class="contenedor1">
+            <form id="form">
+                <label class="labels">Nombre: <input type="text"></label> 
+                <br> 
+                <br>
+                <label>Correo electrónico:<input type="email" required> </label>
+
+    
+    <p class="parrafos">Género:</p>
+        <label class="labels"><input type="radio"  name="genero" value="masculino">Masculino</label><br>
+        <label class="labels"><input type="radio" name="genero" value="femenino">Femenino </label><br>
+        <label class="labels"><input type="radio" name="genero" value="otro">Otro</label>
+         
+        
+
+    <p class="parrafos">Intereses:</p>
+        <label class="labels"><input type="checkbox" name="Intereses"  value="deportes">Sueros</label><br>
+        <label class="labels"><input type="checkbox" name="Intereses" value="musica">Mascarillas</label><br>
+        <label class="labels"><input type="checkbox" name="Intereses"  value="lectura">Tónicos</label>
+        <br>
+        <br>
+        <label class="labels" for="mi-cuadro-expansible">Explica que productos quisieras ver en nuestra tienda</label>
+        <br>
+        <br>
+        <textarea id="mi-cuadro-expansible" name="mi-cuadro-expansible" placeholder="Escribe el nombre del producto" oninput="autoExpand(this)"></textarea> 
+        <br>
+        <br>
+
+        <label for="archivo">Sube un archivo del producto</label> <br> <br>
+        <input type="file" id="archivo" name="archivo" accept="image/,video/">
+        <button type="submit">Aceptar</button> <br> <br> <br>
+    
+
+    <label class="labels" for="lista">¿Te gusta nuestra catálogo actual?</label> 
+    <select id="lista" name="lista">
+    <option value="opcion1">Si</option>
+    <option value="opcion2">No</option>
+    </select>
+
+    <br>
+    <br>
+    <label for="rango">Selecciona el rango de satisfacción </label>
+    <input type="range" id="rango" name="rango" min="0" max="100" value="50">
+    <span id="valorRango">100</span>
+    <br> <br>
+
+
+    
+        <button type="submit" name="Enviar" class="enviar" href="index.html" >Enviar</button>
+        <button type="reset"name="cancelar" class="cancelar">Cancelar</button>
+                </form>
+        </nav>     
+        
+    
+    
+</body>
+</html>
